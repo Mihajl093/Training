@@ -2,8 +2,11 @@ import static Lesson5.Calculator.isPrime;
 
 public class Main {
     public static void main(String[] args) {
-        var result = isPrime(9, 3);
-
-        System.out.println("The result is - " + result);
+        int n = 12;
+        if (isPrime(n, 2)) {
+            System.out.println("Yes it's a Prime");
+        } else {
+            System.out.println("Not a Prime");
+        }
     }
-}
+    }
